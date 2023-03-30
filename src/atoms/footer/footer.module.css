@@ -1,0 +1,14 @@
+.section{
+    display: flex;
+    flex-direction: row;
+    height:60vh;
+    gap:49rem;
+    margin: 0;
+    width:100%;
+    background-color: rgb(91, 142, 168);
+    background-size:cover;
+   
+   
+    
+
+}

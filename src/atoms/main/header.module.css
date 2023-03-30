@@ -1,0 +1,228 @@
+.main{
+    margin: 0;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw!important;
+    
+}
+.container{
+    height: 15vh;
+    width:95%;
+    margin: 0;
+    translate: 0px -40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-around ;
+    box-shadow: 0px 0px 25px 0px black;  
+   
+    
+}
+.container2{
+    height: 15vh;
+    width:95%;
+    margin: 0;
+    translate: 0px -40px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:space-evenly ;
+    box-shadow: 0px 0px 25px 0px black;  
+    margin-top: 2rem;
+    
+}
+.icons>h1{
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+ 
+    
+}
+.icons2>h1{
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.icons3>h1{
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.icons4>h1{
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.icons5>h1{
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.icons{
+    height: 70%;
+    width:6rem;
+    border: 3px solid white;
+    border-radius: 100%;
+    translate: 0px -40px;
+    background-image: url("https://phoneky.co.uk/thumbs/screensavers/down/places/waterfalls_7xovbqux.gif");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 25px 0px black;
+    background-size:cover;
+    
+}
+.icons2{
+    height: 70%;
+    width:6rem;
+    border: 3px solid white;
+    border-radius: 100%;
+    translate: 0px -40px;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/064df663949331.5acdde8172f3f.png");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 25px 0px black;
+    background-size:cover;
+}
+.icons3{
+    height: 70%;
+    width:6rem;
+    border: 3px solid white;
+    border-radius: 100%;
+    translate: 0px -40px;
+    background-image: url("https://i.pinimg.com/originals/31/63/5f/31635fd10983b3c0da798aaf8fabf25d.gif");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 25px 0px black;
+    background-size:cover;
+}
+.icons4{
+    height: 70%;
+    width:6rem;
+    border: 3px solid white;
+    border-radius: 100%;
+    translate: 0px -40px;
+    background-image: url("https://nypost.com/wp-content/uploads/sites/2/2022/12/travel-sales.gif");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 25px 0px black;
+    background-size:cover;
+}
+.icons5{
+    height: 70%;
+    width:6rem;
+    border: 3px solid white;
+    border-radius: 100%;
+    translate: 0px -40px;
+    background-image: url("https://i.pinimg.com/originals/62/6d/d5/626dd57d788b80d4e5986569757331f0.gif");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 25px 0px black;
+    background-size:cover;
+}
+
+.section{
+    width:95%;
+    height: 80vh;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 0px 25px 0px black; 
+    display: flex;
+    flex-direction: column;
+}
+.section2{
+    width:95%;
+    height: 60vh;
+    margin: 0;
+    background-color: whitesmoke;
+    background-image: url("https://gifimage.net/wp-content/uploads/2018/06/website-under-construction-gif-8.gif");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 25px 0px black;
+    background-size:contain;
+  
+}
+.boxcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.box{
+    flex:1;
+    margin: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.box>img{
+    border-radius: 20px;
+    object-fit:cover;
+    transition: 1s;
+    width: 100%;
+    filter:grayscale(1);
+}
+.box:hover{
+ flex: 2;
+}
+.box:hover img{
+    filter: grayscale(0);
+}
+.box>h1{
+   position: absolute;
+   z-index: 2;
+   text-align: center;
+   font-size: x-large;
+   border: 2px solid black;
+   width: 9rem;
+   font-family:'neutral Face';
+   border: 1px solid black;
+   box-shadow:0px 0px 20px 0px red,
+    inset 25px -1px 11px #1fb93b20;
+     background-color: rgba(0,0,0, 0.5);
+     display: flex;
+     flex-direction: column;
+    
+
+}
+.box>p{
+    position: absolute;
+    z-index: 2;
+    color:blue;
+    width: 13rem;
+    margin-top: 4rem;
+    font-size: small;
+}
+.box>button{
+    position: absolute;
+    z-index: 2;
+    color:white;
+    margin-top: 24rem;
+    box-shadow:0px 0px 20px 0px red,
+    inset 25px -1px 11px #1fb93b20;
+     background-color: rgba(0,0,0, 0.5);
+
+    
+}
+.title>h1{
+    color:black;
+    text-align: center;
+    margin: 10;
+}

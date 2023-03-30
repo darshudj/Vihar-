@@ -1,0 +1,209 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+   
+}
+.section{
+    width:75%;
+   margin:0;
+   display: flex;
+   display: flex;
+   justify-content: end;
+ 
+}
+.kmstone{
+    position: fixed;
+    z-index: 6;
+    height: 5rem!important;
+    width: 7rem!important;
+    display: flex;
+    justify-content: end;
+    margin-top: 7rem;
+
+}
+.notice{
+    position: fixed;
+    z-index: 6;
+    height: 19rem!important;
+    width: 18rem!important;
+    display: flex;
+    justify-content: end;
+    margin-top: 31.5rem;
+    
+}
+.noticept{
+   position: absolute;
+   z-index: 7;
+   color: black;
+   display: flex;
+   margin-top: 35rem;
+   margin-right: 2.5rem;
+   font-size: 1rem;
+   width:11.5rem;
+   height: 7rem;
+  
+}
+.section>img{
+   width:100%;
+   height: 99.9vh;
+  
+   
+}
+.section>h4{
+    position: absolute;
+    z-index: 8;
+    color: black;
+    text-align: end;
+    margin-top: 8.4rem;
+    margin-right: 2.2rem;
+    
+
+}
+.note{
+    background-color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.top{
+    
+    height: 50%;
+    background-color:rgb(8, 8, 8);
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.points{
+    height:14rem;
+    width:13rem;
+    position: absolute;
+    z-index: 4;
+    color: black;
+    margin-left: 0rem;
+    margin-top: 8rem;
+    text-align: end;
+
+    
+}
+.points>ul{
+    color: black;
+    text-align: end;
+    margin-top: -0.8rem;
+    margin-left: 6rem;
+    list-style-type: circle;
+}
+.points>p{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 18rem;
+}
+.top>img{
+    width:15rem;
+    height:20rem;
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    margin-left: 8rem;
+    margin-top: 8rem;
+    
+
+  
+   
+}
+.top>button{
+   margin-left: -15rem;
+   margin-top: 19rem;
+   background-color: transparent;
+   color: greenyellow;
+   box-shadow: 0px 0px 25px 0px  greenyellow;
+}
+
+.bottom{
+    height: 50%;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+h3{
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+.pointers{
+    width: 75vw;
+    height: 75vh;
+    position: absolute;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.seats{
+   
+    display: flex;
+    flex-direction: row;
+    border: 2px solid slategrey;
+   
+}
+
+.vehical{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    border-radius: 100%;
+    border: 2px solid black;
+    height:2rem;
+    background-color: black;
+    color:rgb(247, 243, 243);
+    margin-bottom: 0rem;
+    height: 3rem;
+    box-shadow: 0px 0px 10px 0px greenyellow;
+    
+}
+.dataa{
+  height: 77%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.vehicalcontent>h5{
+    font-size: 1.5rem;
+    margin: 0;
+    color:brown
+}
+.vehicalcontent>img{
+   height: 11rem;
+   width: 24rem;
+   object-fit:contain ;
+   
+}
+button{
+    border:2px solid rgb(55, 0, 255);
+    box-shadow: 0px 0px 15px 0px greenyellow;
+    width:6rem
+  }
+  button:hover{
+    transition:1s ease-in-out;
+    color:green;
+    
+    
+  }

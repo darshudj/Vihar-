@@ -1,0 +1,44 @@
+#Jog{
+    width: 4rem;
+    height: 4rem;
+    transform: translate(-21.6rem, -0.8rem);
+    position: fixed;
+    color:black;
+    
+}
+#Dabbe{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    transform: translate(-25rem, 3rem);
+    color: black;
+   
+}
+#Hiddlumane{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    transform: translate(-18rem, 10rem);
+    color: black;
+}
+#Bhimeswara{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    transform: translate(-27rem, 7rem);
+    color: black;
+}
+#Savehaklu{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    transform: translate(-17rem, 18rem);
+    color: black;
+}
+#Gajnur{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    transform: translate(4.4rem, 12rem);
+    color: black;
+}

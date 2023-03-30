@@ -1,0 +1,118 @@
+.main{
+  height:100vh;
+   width:99.4vw;
+   margin: 0;
+   background-image: url("https://www.schemecolor.com/wallpaper?i=34078&desktop");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section{
+    border:20px solid #422F21;
+    width:60%;
+    height:60%;
+    background-color: white;
+    box-shadow: 0px 0px 55px 0px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    width:100%;
+    height:15%;
+    margin: 0;
+}
+.content{
+    width:100%;
+    height:100%;
+    margin: 0;
+    display :flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.activity{
+    flex:1;
+    display: flex;
+    align-items: center;
+    
+}
+.left{
+    width:25%;
+    height: 90%;
+    border-radius: 100%;
+    background-image: url("https://wallpapercave.com/wp/wp2392570.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 25px 0px black;
+}
+.left1{
+    width:25%;
+    height: 90%;
+    border-radius: 100%;
+    background-image: url("https://images.unsplash.com/photo-1629248457649-b082812aea6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFmdGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 25px 0px black;
+}
+.left2{
+    width:25%;
+    height: 90%;
+    border-radius: 100%;
+    background-image: url("https://images.bhaskarassets.com/thumb/1800x1800/web2images/521/2022/09/03/3350a221-d794-4384-b82a-9e6fa36e1c50_1662207945515.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 25px 0px black;
+}
+.right{
+    width: 70%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.right>h1{
+    text-align: left;
+    font-size: xx-large;
+    color: black;
+    margin: 0;
+}
+.right>h5{
+    text-align: left;
+    color: grey;
+    font-size: 1rem;
+    margin:0;
+}
+.section>h1{
+    margin: 0;
+    background: linear-gradient(
+        70deg, #3f5efb , #fc466b
+    );
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    text-align: center; 
+}
+.picture{
+    width:100%;
+    height:100%;
+    display :flex;
+    flex: 1;
+    background-image: url("https://i.pinimg.com/originals/67/56/c7/6756c7bc7039baab0006cd1a216a3a86.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.features{
+    width:100%;
+    height:100%;
+    display :flex;
+    flex: 1;
+    margin: 0;
+    flex-direction: column;
+   
+
+}
